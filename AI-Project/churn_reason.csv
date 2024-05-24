@@ -1,0 +1,16 @@
+age,income,gender,m_status,Reason
+<25,high,male,single,Competitor offered higher download speeds
+<25,high,male,married,Competitor offered higher download speeds
+25-35,high,male,single,Competitor had better devices
+>35,medium,male,single,Competitor offered higher download speeds
+>35,low,female,single,Competitor made better offer
+>35,low,female,single,Price too high
+25-35,low,female,married,Product dissatisfaction
+<25,medium,male,married,Lack of self-service on Website
+<25,low,female,single,Price too high
+>35,medium,female,married,Lack of self-service on Website
+<25,medium,female,single,Limited range of services
+25-35,medium,male,married,Limited range of services
+25-35,high,female,single,Price too high
+>35,medium,male,married,Product dissatisfaction
+<25,high,male,single,Lack of self-service on Website

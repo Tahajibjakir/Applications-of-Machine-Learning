@@ -1,0 +1,63 @@
+
+Libraries:
+ 1.import pandas as pd
+ 2.import numpy as np
+ 3.from sklearn.preprocessing import LabelEncoder    # for Label Encoding
+ 4.from sklearn.preprocessing import OrdinalEncoder  # For Ordinal Encoding
+ 5.seaborn as sns                                    # It provides a high-level interface for drawing attractive and informative statistical graphics.
+ 6.matplotlib.pyplot as plt 
+ 7. from sklearn.model_selection import train_test_split # to devide dada from set for training and testing.
+ 8. from sklearn.linear_model import LinearRegression
+ 9. from sklearn.metrics import mean_squared_error, r2_score
+ 10. from sklearn.preprocessing import StandardScaler 
+ 11. from sklearn.ensemble import RandomForestClassifier
+ 12. from sklearn.tree import DecisionTreeClassifier
+ 13. from sklearn.linear_model import LogisticRegression
+ 14. 
+
+
+Functions:
+
+ 1. pd.read_csv('file name.csv')           # To read csv file
+ 
+ 2. isnull()                               # To fine null value in file
+ 
+ 3. sum()                                  # To get sum
+
+ 4. Mean()                                 # To get Mean of a column or Row
+
+ 5. Median()                               # To find Median 
+
+ 6. fillna(variable)                       # This method replaces the NULL values with a specified value
+
+ 7. unique()                               # To find unique values or names
+
+ 8. replace(['Dhaka', 'Ctg', 'Rangpur'],[3,2,1])       # To replace some values with others
+
+ 9. df.Area=LabelEncoder().fit_transform(df['Area'])   # fit_transform() is used to transform string into numeric value
+
+10. get_dummies(df['Area'])                # To encode by one hot encoding
+
+11. drop('column name', axis=0 or 1)       # To drop a column or row
+
+12. concat([new_df,dummy_var],axis=1)      # To attach two data set
+
+13. Object=OrdinalEncoder(categories=[array of the unique value])
+
+14. DataFrame(array of encoded value, columns=['column name'])       # To create data frame
+
+15. dataframe.shape                        # to see the row and column number of data set
+
+16. open('file name')                      # to open a file
+
+17. sns.histplot( ,kde=True)               # to draw a histogram
+
+18. fit()                                  # to train machine
+
+19. lre.score(xtest,ytest)                 # to test the accuracy
+
+20. r2_score(ytest,pred)                   # to predict
+
+21. df['column name'].value_counts()       # To count descrete value of a column
+
+22. df.drop_duplicates(inplace=True)       # to drop duplicate values of a data set
